@@ -11,7 +11,7 @@ html {
 #header
 {
 	
-	display: grid;
+
 	max-width: 1440px;
 	
 	justify-content: center;
@@ -31,7 +31,8 @@ margin-top: -5rem;
 	padding: 0.2em;
 	height: 2.813em;
 	justify-content: center;
-	padding-left: 14rem;
+	
+
 	margin-top: 5rem ;
 
 	
@@ -136,18 +137,18 @@ margin-top: -5rem;
 .Filtres {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	margin: auto;
+	
+	
 	max-width: 100%;
-	justify-content: space-around;
-	margin-left: 0;
+
+
 	margin-top: 2em;
 	
 
 }
 
 .Titrefiltres {
-	margin: 0 2rem 1rem 0;
+	
 	display: flex;
 	align-items: center;
 	font-weight: bold;
@@ -238,21 +239,14 @@ margin-top: -5rem;
 	margin-top: 1em;
 	
 }
-.InfoTitle
-{
-	display: flex;
-	
-	margin-left: 0.8%;
-	
-	
-}
+
 .announces {
-	justify-content: center;
-	margin-top: 2.5rem;
+
+	
 	display: grid;
 	grid-template-columns: 70% 30%;
-	margin-left: 15%;
-	max-width: 80%;
+	width: 100%;
+	
 	
 	
 }
@@ -390,7 +384,7 @@ strong {
 	background-color: #F2F2F2;
 	border-radius: 1.5rem;
 	padding: 0.9rem;
-	width: 100%;
+	
 	margin: auto;
 	
 	
@@ -487,8 +481,8 @@ strong {
    grid-template-columns: repeat(4, 1fr);
    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
    justify-content: center;
-   width: 1155.2px;
-   margin-left: 15%;
+   
+   
    
 }
 
@@ -560,7 +554,9 @@ strong {
 #body
 {
 	max-width: 1444px;
-	margin: auto;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0em;
 }
 
 ::placeholder
@@ -570,9 +566,9 @@ strong {
 .footer {
 	background-color: #F2F2F2;
 	margin: auto;
-	width: 80%;
+
 	margin-top: 2em;
-	margin-left: 15%;
+	
 	
   }
   .footerColumnwrapper {
@@ -609,8 +605,14 @@ strong {
 	#logo1{
 		display: flex;
 		justify-content: flex-start;
-		margin-left: -25%;
 		
+		
+	}
+	.announces {
+		max-width: 768px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
 	}
 	
     .Headerlink {
@@ -618,7 +620,7 @@ strong {
 		justify-content: flex-start;
 		margin-top: 20%;
 		width: 50%;
-		margin-left: 15%;
+		
 		font-size: x-large;
 		border: 3px 0 solid blue;
     }
@@ -630,23 +632,25 @@ strong {
 		display: flex;
 		margin-top: -20%;
 		font-size: x-large;
+		padding: 0;
 	}
 	#Titre1 {
 		display: flex;
 		font-weight: bold;
 		
 		margin-bottom: -2px;
-		margin-left: -30%;
+	
 		margin-top: 0.8rem;
 	
 }
     #header {
-		margin-left: 30%;
+		max-width: 756px;
+		width: 100%;
 	}
 
 	#PT1 {
 		display: flex;
-		margin-left: 3%;
+		
 	}
 	.recherche{
 		display: flex;
@@ -654,58 +658,58 @@ strong {
 	
 	}
     .Filtres {
-		margin-left: -50%;
-		justify-content: center;
-		margin-top: 5rem;
-        max-width: none;
+	
+		max-width: 100%;
+		display: inherit;
 		
 		
 	}
 	.FiltreContenu:hover {
 		transform: scale(1.09);
 	}
-	.FiltreContenu:last-child {
-		margin-left: 2.8rem;
-	}
+
 	.Titrefiltres {
-		margin-top: -5em;
-		margin-left: 2em;
-		margin-bottom: 2rem;
+		
 		font-size: large;
 		text-decoration: underline;
 	}
 	.Hpopulaires {
 		
-		display: grid;
-		align-items: center;
+	
 		margin: 0;
 	   }
     
   
     .Info {
-	   margin-left: -5rem;
+	   
 	   width: 100%;
 	}
 	.boxsearch {
-		margin-left: 2rem;
+		
 		margin-top: 3rem;
 	}
 	.Hebergement {
-		width: 640px;
-		margin-left: -5.5rem;
-		margin-top: 655px;
 		
+		max-width: 768px;
+		margin-top: 2em;
+		width: auto;
+
 		
 	}
-	
+	#nav {
+		max-width: 768px;
+		width: 100%;
+	}
 	.Hpopulaires {
-		width: 680px;
-		margin-left: -520px;
+		align-self: flex-start;
+		max-width: 768px;
 		max-height: 600px;
+		order: -2;
+		width: auto;
 		
 	}
 	.activities {
-		width: 768px;
+		
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
@@ -756,6 +760,10 @@ strong {
 		width: 100%;
 		margin: auto;
 	}
+	.headernav {
+           max-width: 768px;
+		   width: 100%;
+	}
 	
 }
 @media screen and (max-width: 420px) {
@@ -773,10 +781,7 @@ strong {
 		flex-direction: row;
 		margin-top: 2em;
 	}	
-	#nav {
-		display: grid;
 	
-	}
 	#Titre1 {
 		justify-content: center;
 		text-align: center;
@@ -794,11 +799,12 @@ strong {
 	}
 	#logo1 {
 		margin-top: -2px;
-		margin-left: -215px;
+		
 	}
 	#nav {
 		width: 395px;
 		margin: auto;
+		display: grid;
 	}
 	.boxsearch {
 		margin-top: 0;
@@ -823,7 +829,7 @@ strong {
 	
 	.announces {
 		
-		justify-content: center;
+	
 		max-width: 100%;
 		display: grid;
 		grid-template-columns: 1fr;
@@ -831,10 +837,10 @@ strong {
 		
 	}
 	.Hpopulaires {
-		width: 414px;
+		
 	    display: grid;
 		order: 1;
-		margin: auto;
+		
 		margin-top: 0;
 		justify-content: center;
 		padding: 0;
@@ -846,13 +852,16 @@ strong {
 	}
 	
 	.Hebergement {
-		width: 70%;
+		
 		order: 2;
 		display: grid;
 		grid-template-columns: 1fr;
 		margin-left: 0;
 		margin-top: 15px;
 		background-color: white;
+		max-width: 420px;
+		width: 100%;
+		padding: 0;
 	}
 	.hebergementart {
 		width: 414px;
