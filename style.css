@@ -433,6 +433,8 @@ strong {
 	flex-direction: column;
 }
 
+
+
 .HpopulairesArticlepopulaire
 {
 	height: 8.75rem;
@@ -956,8 +958,7 @@ strong {
 	.HeaderSignup {
 		position: absolute;
 		right: 0;
-		top: auto;
-		
+	
 	}
 	.Hebergement {
 		width: 95%;
