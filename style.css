@@ -626,8 +626,7 @@ strong {
 		width: 50%;
 		
 		font-size: x-large;
-		border: 3px 0 solid blue;
-    }
+	}
 	.Headerlink[data-active=false]:hover {
 		color: #0065FC;
 	}
